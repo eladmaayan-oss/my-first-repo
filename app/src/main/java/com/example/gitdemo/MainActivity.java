@@ -11,5 +11,10 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     lrvoldgfslkfdgzlnk;
+
+    @Override
+    public boolean onSearchRequested() {
+        return super.onSearchRequested();
     }
+}
 }
